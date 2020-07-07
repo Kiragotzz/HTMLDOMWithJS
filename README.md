@@ -1,2 +1,2 @@
 # HTMLDOMWithJS
-SPA para testes de alteração do DOM de um HTML via JS.
+SPA for test changing HTML DOM with JS.
