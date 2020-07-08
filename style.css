@@ -1,3 +1,97 @@
 body {
-    background-image: url("img/asfalto-back-ground.png");
+    background-image: url("img/black-carbon-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    background-color: rgba(22, 22, 22, 0.76);
+    border-style: inherit;
+}
+
+table {
+    padding: 16px;
+}
+
+* {
+    padding: 1px 1px 1px 1px;
+    margin: 1px 1px 1px 1px;
+    font-family: Arial, Helvetica, sans-serif;  
+    color: rgb(255, 255, 255);
+}
+
+form a {
+    color:#fff;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 4px 8px 4px 8px;
+    border-radius: 50%;
+}
+input.quantidade {
+    border: none;
+    display: inline;
+    text-align: center;
+}
+
+form a:hover {
+    background-color: #00000063;
+}
+
+form a:active {
+    background-color: #777;
+}
+
+section h2 {
+    text-align: center;
+}
+
+table {
+    border-radius: 50px;
+    text-align: center;
+    border: 1px  #eee;
+    color: blue;
+    background-color: rgba(128, 128, 128, 0.692);
+
+}
+
+form {
+    margin: auto;
+}
+
+form textarea {
+    height: 200px;
+    color:blue;
+    font-size: 0.75em;
+}
+
+form input {
+    background-color: transparent;
+    font-style: italic;
+    color:white;
+}
+
+th, td {
+    text-align: center;
+    color:white;
+}
+
+header {
+    background-color: rgba(128, 128, 128, 0.788);
+    top: 0;
+}
+
+h3, p {
+    display: block;
+}
+blockquote, img {
+    display: none;
+}
+
+
+h3:hover + img, blockquote{
+    cursor: pointer;
+    display: block;
 }

@@ -9,7 +9,7 @@
 
 <body>
     <header>
-        <h1>Tênis colecionaveis</h1>
+        <h1>Compra de Tênis</h1>
         <nav>
             <ul>
                 <li>
@@ -22,11 +22,85 @@
                     <a>Tênis Comuns</a>
                 </li>
             </ul>
-        </nav>
+        </nav>  
     </header>
 
+    <section>
+        <h2>Tabela de Pedido</h2>
+        <form>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tipo</th>
+                        <th>Quantidade</th> 
+                        <th>Preço Unitario</th>
+                    </tr>
+                </thead>
     
+                <tbody>
+                    <tr>
+                        <td>Classico</td>
+                        <td>
+                            <a class="btn-decremento">-</a>
+                            <input type="number" name="tCorrida" max="10" value="0" class="quantidade" required>
+                            <a class="btn-incremento">+</a>
+                        </td>
+                        <td class="preco-item">R$ 120,00</td>
+                    </tr>
+                    <tr>
+                        <td>Sneaker</td>
+                        <td>
+                            <a class="btn-decremento">-</a>
+                            <input type="number" name="tCorrida" max="10" value="0" class="quantidade" required>
+                            <a class="btn-incremento">+</a>
+                        </td>
+                        <td class="preco-item">R$ 120,00</td>
+                    </tr>
+                    <tr>
+                        <td>Comum</td>
+                        <td>
+                            <a class="btn-decremento">-</a>
+                            <input type="number" name="tCorrida" max="10" value="0" class="quantidade" required>
+                            <a class="btn-incremento">+</a>
+                        </td>
+                        <td class="preco-item">R$ 120,00</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Total</td>
+                        <td id="total">0</td>
+                    </tr>
+                </tfoot>
+            </table>
+            
+        </form>
+    </section>
     
+    <section>
+        <h3>As 1001 noites - O pescador e o gênio</h3>
+        <img src="img/tenis-para-basquete.jpg" height="250" width="250"></img>
+        <blockquote>Havia um pescador muito velho e muito pobre
+        que mal conseguia ganhar dinheiro para não deixar morrer de
+        fome sua mulher e seus três filhos. Todos os dias, de
+        madrugada, ele saía para pescar. Lançava sua rede ao mar
+        quatro vezes.</blockquote>
+ 
+        <p>Um dia, numa noite de lua, foi até a praia. Tirou a
+        roupa, entrou na água e lançou a rede. Quando a puxou,
+        sentiu
+        resistência. Pensou: “Desta vez, fiz uma boa pescaria!” –
+        e ficou muito contente. Porém, quando foi ver o que
+        estava nas malhas da rede, notou que não passava de uma
+        carcaça de burro, e passou da alegria à mais completa
+        tristeza.</p>
+    </section>
+
+    <footer>
+
+    </footer>
+        
     <script src="js.js"></script>
 </body>
 </html>
