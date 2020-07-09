@@ -27,7 +27,7 @@
 
     <section>
         <h2>Tabela de Pedido</h2>
-        <form>
+        <form name="pedido" action="http://arquivo.devmedia.com.br/projeto/requisicao.php" method="POST">
             <table>
                 <thead>
                     <tr>
@@ -38,32 +38,32 @@
                 </thead>
     
                 <tbody>
-                    <tr>
+                    <tr class="item">
                         <td>Classico</td>
                         <td>
                             <a class="btn-decremento">-</a>
-                            <input type="number" name="tCorrida" max="10" value="0" class="quantidade" required>
+                            <input class="quantidade" type="number" name="tCorrida" max="10" value="0" required>
                             <a class="btn-incremento">+</a>
                         </td>
-                        <td class="preco-item">R$ 120,00</td>
+                        <td class="preco-item">120.00</td>
                     </tr>
-                    <tr>
+                    <tr class="item">
                         <td>Sneaker</td>
                         <td>
                             <a class="btn-decremento">-</a>
                             <input type="number" name="tCorrida" max="10" value="0" class="quantidade" required>
                             <a class="btn-incremento">+</a>
                         </td>
-                        <td class="preco-item">R$ 120,00</td>
+                        <td class="preco-item">120.00</td>
                     </tr>
-                    <tr>
+                    <tr class="item">
                         <td>Comum</td>
                         <td>
                             <a class="btn-decremento">-</a>
                             <input type="number" name="tCorrida" max="10" value="0" class="quantidade" required>
                             <a class="btn-incremento">+</a>
                         </td>
-                        <td class="preco-item">R$ 120,00</td>
+                        <td class="preco-item">120.00</td>
                     </tr>
                 </tbody>
 
@@ -74,7 +74,7 @@
                     </tr>
                 </tfoot>
             </table>
-            
+            <input type="submit" value="enviar"/>
         </form>
     </section>
     
