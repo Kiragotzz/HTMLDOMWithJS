@@ -9,17 +9,19 @@ h1 {
     border-style: inherit;
 }
 
-table {
-    padding: 16px;
-}
-
 * {
-    padding: 1px 1px 1px 1px;
-    margin: 1px 1px 1px 1px;
     font-family: Arial, Helvetica, sans-serif;  
     color: rgb(255, 255, 255);
 }
 
+form {
+ 
+}
+form table {
+    vertical-align: middle;
+    margin: 0 auto;
+        
+}
 form a {
     color:#fff;
     font-size: 12px;
@@ -27,7 +29,7 @@ form a {
     letter-spacing: 1px;
     font-size: 30px;
     cursor: pointer;
-    padding: 4px 8px 4px 8px;
+    position: relative;
     border-radius: 50%;
 }
 input.quantidade {
@@ -49,16 +51,12 @@ section h2 {
 }
 
 table {
-    border-radius: 50px;
+    
     text-align: center;
-    border: 1px  #eee;
+   
     color: blue;
     background-color: rgba(128, 128, 128, 0.692);
 
-}
-
-form {
-    margin: auto;
 }
 
 form textarea {
@@ -74,8 +72,10 @@ form input {
 }
 
 th, td {
+    padding: 25px;
     text-align: center;
     color:white;
+    border:1px #000 solid;
 }
 
 header {
