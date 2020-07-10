@@ -54,7 +54,7 @@ formPedido.addEventListener("submit", function (event) {
     }
     if (contador == 0)
     {
-        alert("Deve ter pelo menos 1 pizza no pedido");
+        alert("Deve ter pelo menos 1 tênis no pedido");
         event.preventDefault();
     }
 });
