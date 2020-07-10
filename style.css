@@ -80,8 +80,11 @@ th, td {
 }
 
 header {
-    background-color: rgba(128, 128, 128, 0.788);
+    position: fixed;
+    background-color: rgb(128, 128, 128);
     top: 0;
+    left: 0px;
+    right: 0px;
 }
 
 h3, p {
@@ -91,10 +94,11 @@ blockquote, img {
     display: none;
 }
 
-
 h3:hover + img, blockquote{
     cursor: pointer;
     display: block;
 }
 
-
+main {
+    padding-top: 150px;
+}
