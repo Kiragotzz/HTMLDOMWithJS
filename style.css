@@ -1,11 +1,14 @@
+/*
+GERAL
+*/
+
 body {
-    background-color: black;
+    background-color: rgb(58, 58, 58);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 h1 {
-    background-color: rgba(22, 22, 22, 0.76);
     border-style: inherit;
 }
 
@@ -81,10 +84,12 @@ th, td {
 
 header {
     position: fixed;
-    background-color: rgb(128, 128, 128);
+    background-color: rgb(31, 31, 31);
     top: 0;
     left: 0px;
     right: 0px;
+    flex-direction: row;
+    
 }
 
 h3, p {
@@ -102,3 +107,4 @@ h3:hover + img, blockquote{
 main {
     padding-top: 150px;
 }
+

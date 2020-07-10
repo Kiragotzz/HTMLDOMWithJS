@@ -8,95 +8,115 @@
 </head>
 
 <body>
-    <header>
-        <h1>Compra de Tênis</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a>Tênis Classicos</a>
-                </li>
-                <li>
-                    <a>Tênis Sneakers</a>
-                </li>
-                <li>
-                    <a>Tênis Comuns</a>
-                </li>
-            </ul>
-        </nav>  
-    </header>
-<main>
-    <section>
-        <h2>Tabela de Pedido</h2>
-        <form name="pedido" action="http://arquivo.devmedia.com.br/projeto/requisicao.php" method="POST">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Tipo</th>
-                        <th>Quantidade</th> 
-                        <th>Preço Unitario</th>
-                    </tr>
-                </thead>
+    <main>
+        <header>
+            <h1>Compra de Tênis</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a>Tênis Classicos</a>
+                    </li>
+                    <li>
+                        <a>Tênis Sneakers</a>
+                    </li>
+                    <li>
+                        <a>Tênis Comuns</a>
+                    </li>
+                </ul>
+            </nav>  
+        </header>
     
-                <tbody>
-                    <tr class="item">
-                        <td>Classico</td>
-                        <td>
-                            <a class="btn-decremento">-</a>
-                            <input class="quantidade" type="number" name="tCorrida" max="10" value="0" required>
-                            <a class="btn-incremento">+</a>
-                        </td>
-                        <td class="preco-item">120.00</td>
-                    </tr>
-                    <tr class="item">
-                        <td>Sneaker</td>
-                        <td>
-                            <a class="btn-decremento">-</a>
-                            <input type="number" name="tCorrida" max="10" value="0" class="quantidade" required>
-                            <a class="btn-incremento">+</a>
-                        </td>
-                        <td class="preco-item">120.00</td>
-                    </tr>
-                    <tr class="item">
-                        <td>Comum</td>
-                        <td>
-                            <a class="btn-decremento">-</a>
-                            <input type="number" name="tCorrida" max="10" value="0" class="quantidade" required>
-                            <a class="btn-incremento">+</a>
-                        </td>
-                        <td class="preco-item">120.00</td>
-                    </tr>
-                </tbody>
+        <section>
+            <h2>Tabela de Pedido</h2>
+            <form name="pedido" action="http://arquivo.devmedia.com.br/projeto/requisicao.php" method="POST">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tipo</th>
+                            <th>Quantidade</th> 
+                            <th>Preço Unitario</th>
+                        </tr>
+                    </thead>
+        
+                    <tbody>
+                        <tr class="item">
+                            <td>Classico</td>
+                            <td>
+                                <a class="btn-decremento">-</a>
+                                <input class="quantidade" type="number" name="tCorrida" max="10" value="0" required>
+                                <a class="btn-incremento">+</a>
+                            </td>
+                            <td class="preco-item">120.00</td>
+                        </tr>
+                        <tr class="item">
+                            <td>Sneaker</td>
+                            <td>
+                                <a class="btn-decremento">-</a>
+                                <input type="number" name="tCorrida" max="10" value="0" class="quantidade" required>
+                                <a class="btn-incremento">+</a>
+                            </td>
+                            <td class="preco-item">120.00</td>
+                        </tr>
+                        <tr class="item">
+                            <td>Comum</td>
+                            <td>
+                                <a class="btn-decremento">-</a>
+                                <input type="number" name="tCorrida" max="10" value="0" class="quantidade" required>
+                                <a class="btn-incremento">+</a>
+                            </td>
+                            <td class="preco-item">120.00</td>
+                        </tr>
+                    </tbody>
+    
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Total</td>
+                            <td id="total">0</td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <input type="submit" value="enviar"/>
+            </form>
+        </section>
+        
+        <section>
+            <div class="tenis1">
+                
+            </div>
+            <div class="tenis2">
+    
+            </div>
+            <div class="tenis3">
+    
+            </div>
+            <div class="tenis4">
+    
+            </div>
+            <div class="tenis5">
+    
+            </div>
 
-                <tfoot>
-                    <tr>
-                        <td colspan="2">Total</td>
-                        <td id="total">0</td>
-                    </tr>
-                </tfoot>
-            </table>
-            <input type="submit" value="enviar"/>
-        </form>
-    </section>
-    
-    <section>
-        <h3>As 1001 noites - O pescador e o gênio</h3>
-        <img src="img/tenis-para-basquete.jpg" height="250" width="250"></img>
-        <blockquote>Havia um pescador muito velho e muito pobre
-        que mal conseguia ganhar dinheiro para não deixar morrer de
-        fome sua mulher e seus três filhos. Todos os dias, de
-        madrugada, ele saía para pescar. Lançava sua rede ao mar
-        quatro vezes.</blockquote>
- 
-        <p>Um dia, numa noite de lua, foi até a praia. Tirou a
-        roupa, entrou na água e lançou a rede. Quando a puxou,
-        sentiu
-        resistência. Pensou: “Desta vez, fiz uma boa pescaria!” –
-        e ficou muito contente. Porém, quando foi ver o que
-        estava nas malhas da rede, notou que não passava de uma
-        carcaça de burro, e passou da alegria à mais completa
-        tristeza.</p>
-    </section>
-</main>
+        </section>
+
+        <section>
+            <h3>As 1001 noites - O pescador e o gênio</h3>
+            <img src="img/tenis-para-basquete.jpg" height="250" width="250"></img>
+            <blockquote>Havia um pescador muito velho e muito pobre
+            que mal conseguia ganhar dinheiro para não deixar morrer de
+            fome sua mulher e seus três filhos. Todos os dias, de
+            madrugada, ele saía para pescar. Lançava sua rede ao mar
+            quatro vezes.</blockquote>
+     
+            <p>Um dia, numa noite de lua, foi até a praia. Tirou a
+            roupa, entrou na água e lançou a rede. Quando a puxou,
+            sentiu
+            resistência. Pensou: “Desta vez, fiz uma boa pescaria!” –
+            e ficou muito contente. Porém, quando foi ver o que
+            estava nas malhas da rede, notou que não passava de uma
+            carcaça de burro, e passou da alegria à mais completa
+            tristeza.</p>
+        </section>
+    </main>
    
 
     <footer>
