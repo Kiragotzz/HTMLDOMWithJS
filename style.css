@@ -12,7 +12,12 @@ body, ul {
 HEADER
 */
 h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 80px;
+    font-style: italic;
     color: white;
+    font-family: 'Pacifico', cursive;
 }
 
 /*
@@ -95,23 +100,41 @@ CAMPO DE PEDIDO
 */
 
 section h2 {
-    color: teal;
+    padding: 50px 0 0 0;
+    text-align: center;
+    color: rgb(255, 255, 255);
 }
 
-form table   {
-    border-color: none;
+form a {
+    padding: 0 10px 0 10px;
+}
+
+form table {
+    padding: 10px 30px 10px 30px;
+    margin: auto;
+    text-align: center;
     border-radius: 5px;
     background-color: rgb(131, 131, 131);
+
 }
 
 tr td th {
-    
+    margin-top: 10px;
     border-radius: 5px;
     background-color: rgb(180, 180, 180);
-    margin: 10%;
     color: honeydew;
 }
 
-input {
-    ;
+input.quantidade {
+    border: none;
+    text-align: center;
+    background-color: transparent;
+}
+
+form a:hover {
+    background-color: #6d6d6d6d;
+}
+ 
+form a:active {
+    background-color: rgb(75, 34, 139);
 }
