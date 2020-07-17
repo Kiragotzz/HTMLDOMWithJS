@@ -12,11 +12,11 @@ body, ul {
 HEADER
 */
 h1 {
-    margin: 0;
-    padding: 0;
-    font-size: 80px;
-    font-style: italic;
-    color: white;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 1%;
+    font-size: 50px;
+    color: rgb(196, 196, 196);
     font-family: 'Pacifico', cursive;
 }
 
